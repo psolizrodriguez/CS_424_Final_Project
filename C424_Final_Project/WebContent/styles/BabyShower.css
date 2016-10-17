@@ -1,5 +1,5 @@
 html {
-	background-color: #BCF5B5;
+	background-color: #1a8cff;
 	font-size: 10pt;
 }
 
@@ -40,25 +40,34 @@ label {
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-	text-align: center;
+	text-align: left;
 	background-position: center;
-	margin: 50px auto;
+	margin: 100px auto;
 }
 
 .loginform form {
-	margin: 100px auto;
+	margin: 30px auto;
 }
 
 .loginform ul {
 	padding: 0;
-	margin: 0;
+	margin: 20;
 }
 
 .loginform li {
-	padding-top: 5px;
+	padding-top: 0px;
+	padding-left: 50px;
+	vertical-align:top;
+	margin: 5px;
 	display: block;
+	
 }
 
+.loginform button{
+	
+	color: red;
+	background-color: black;
+}
 .loginform input[type=submit] {
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	background: #64c8ef; /* Old browsers */
